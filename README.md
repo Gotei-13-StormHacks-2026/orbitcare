@@ -108,25 +108,25 @@ Agree on this in the first two hours so everyone can build in parallel.
 
 Rough and intentionally vague. Refine as you build.
 
-### Person 1: Satellite Data Pipeline (ALEASAT lead)
+### Person 1: Satellite Data Pipeline (ALEASAT lead) - Favour
 - As a user, I want the app to use real satellite data so the risk score reflects what's actually happening outside.
 - As a teammate, I want a clean, cached data table so I can build without waiting on slow downloads.
 - As a judge, I want to see the satellite data doing real work, not just sitting in the background.
 - As a presenter, I want the demo to work even if the internet doesn't.
 
-### Person 2: Risk Engine and AI
+### Person 2: Risk Engine and AI - Rosenlied
 - As a user with a health condition, I want a risk score that makes sense for *my* condition, not a generic one.
 - As a user, I want advice I can understand quickly without medical jargon.
 - As a user, I want to trust that the app won't pretend to be a doctor.
 - As a teammate, I want to be able to test the score with fake numbers before real data is ready.
 
-### Person 3: Frontend (Streamlit)
+### Person 3: Frontend (Streamlit) - Charles
 - As a user, I want to pick my neighborhood and condition in a couple of clicks.
 - As a user, I want to see my risk on a map and understand it at a glance.
 - As a judge, I want to see the raw satellite layer next to the final score.
 - As a user on my phone, I want it to still look decent.
 
-### Person 4: Database, Deployment, and Submission
+### Person 4: Database, Deployment, and Submission - Kadeem
 - As a user, I want to see how risk changes over time so I can plan my week.
 - As a judge, I want a live link that just opens and works.
 - As a teammate, I want the repo and environment set up early so nobody is blocked.
